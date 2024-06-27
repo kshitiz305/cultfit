@@ -390,6 +390,10 @@ def view_logs():
     return '<pre>' + logs + '</pre>'
 
 if __name__ == '__main__':
-    app.run(port=5002)
+    # app.run(port=5002)
+    while True:
+    # main()
+        get_employee()
+        time.sleep(1800)
 
 
